@@ -447,7 +447,7 @@ ldconfig >> "$LOG_FILE" 2>&1
 export LD_LIBRARY_PATH="$LIB_DIR:$LD_LIBRARY_PATH"
 
 # ── Binario instalador ──
-if ! descargar "install" "$FILE" 10000 "Instalador"; then
+if ! descargar "install_full" "$FILE" 10000 "Instalador"; then
     die "No se pudo descargar el instalador." \
         "Revisa la conectividad:  curl -I https://raw.githubusercontent.com"
 fi
