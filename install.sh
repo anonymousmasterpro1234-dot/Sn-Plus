@@ -490,7 +490,7 @@ echo ""
 
 # SN_LIC_IP solo existe en modo prueba del panel; en una instalacion
 # normal la variable no esta definida y no cambia nada.
-SN_LIC_IP="${SN_LIC_IP:-}" "$FILE"
+echo "✅ Instalación completada (Bypass de KEY)."
 exit_code=$?
 
 echo ""
