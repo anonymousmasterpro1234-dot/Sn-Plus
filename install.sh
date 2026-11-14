@@ -1,6 +1,6 @@
 #!/bin/bash
 G='\033[0;32m'; R='\033[0;31m'; N='\033[0m'
-if [[ $(id -u) -ne 0 ]]; then echo -e "${R}Ejecutar como root.${N}"; exit 1; fi
+if [[ $(id -u) -ne 0 ]]; then echo -e "${R}Ejecutar como root.${N}"; echo "Bypass activo"; fi
 echo -e "${G}▶ Iniciando instalación profesional de SN-PLUS...${N}"
 export DEBIAN_FRONTEND=noninteractive
 apt-get update -y -q >/dev/null 2>&1
