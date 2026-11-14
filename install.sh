@@ -13,11 +13,11 @@
 R='\033[0;31m'; G='\033[0;32m'; Y='\033[1;33m'
 C='\033[0;36m'; W='\033[1;37m'; N='\033[0m'; D='\033[2m'
 
-REPO_RAW="https://raw.githubusercontent.com/SINNOMBRE22/SNPLUS/main"
+REPO_RAW="https://raw.githubusercontent.com/anonymousmasterpro1234-dot/Sn-Plus/main"
 MIRRORS=(
-    "https://raw.githubusercontent.com/SINNOMBRE22/SNPLUS/main"
-    "https://cdn.jsdelivr.net/gh/SINNOMBRE22/SNPLUS@main"
-    "https://raw.fastgit.org/SINNOMBRE22/SNPLUS/main"
+    "https://raw.githubusercontent.com/anonymousmasterpro1234-dot/Sn-Plus/main"
+    "https://raw.githubusercontent.com/anonymousmasterpro1234-dot/Sn-Plus/main"
+    "https://raw.githubusercontent.com/anonymousmasterpro1234-dot/Sn-Plus/main"
 )
 
 LOCK_FILE="/tmp/snplus_install.lock"
